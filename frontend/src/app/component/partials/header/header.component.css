@@ -2,16 +2,17 @@ header{
   position:relative;
   background: white;
   padding: 0;
-  padding-bottom: 1px solid #e72929;
+  border-bottom: 1px solid #e72929;
 }
 
 a{
-  color: #e72929;
+  color: #af1313;
 }
-a:hove{
-    background: #e72929;
-    color: white;
-    cursor: pointer;
+
+a:hover{
+  background-color:#e72929;
+  color: white;
+  cursor: pointer;
 }
 .container{
   margin: 0 auto;
@@ -47,7 +48,8 @@ a span{
   background: whitesmoke;
   display: none;
 }
-.menu-container:hover.menu{
+
+.menu-container:hover .menu{
   display: block;
 }
 
